@@ -1,8 +1,7 @@
 const options = {
 	method: 'GET',
 	headers: {
-		// Create an account with api-ninjas.com, so you can access your api key...
-		'X-Api-Key': process.env.API_KEY
+		'X-Api-Key': '8mYNxl6WmK39NGYW/AOk3Q==pYZglV7tv2jo5O0R'
 	}
 };
 
