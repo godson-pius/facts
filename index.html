@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Facts | Knowledge</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <h1 class="text-center my-7 uppercase text-2xl font-bold">🔅 Facts you might not know 🔅</h1>
+
+        <hr class="mx-20 mb-10">
+        
+        <!-- Question -->
+        <div class="w-full flex flex-col justify-center px-24 lg:px-40 my-10">
+            <span class="text-center text-yellow-100 mb-2">Hint: Type in the number of facts you will like to know</span>
+            <input class="w-full rounded-full p-1 md:p-2 bg-[#062e45] ring-1 focus:ring-yellow-50 outline-none duration-700 pl-5" type="number" name="qty" id="qty" placeholder="Number of facts..." onkeyup="callApi(this)">
+        </div>
+        
+        <!-- Facts -->
+        <div class="w-full facts grid md:grid-cols-2 lg:grid-cols-3 px-24 gap-9">
+            
+        </div>
+    </div>
+
+
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
